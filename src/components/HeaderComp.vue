@@ -29,7 +29,11 @@ export default {
         class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12"
       >
         <li><a class="hover:text-gray-500" href="/">Home</a></li>
-        <li><a class="hover:text-gray-500" href="/sobrenos">Sobre nós</a></li>
+        <li>
+          <RouterLink class="hover:text-gray-500" to="/sobrenos"
+            >Sobre nós
+          </RouterLink>
+        </li>
         <li>
           <a
             class="hover:text-gray-5 00"

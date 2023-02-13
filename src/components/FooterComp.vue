@@ -41,7 +41,9 @@ export default {
     >
       <nav class="flex flex-wrap justify-center -mx-5 -my-2">
         <div class="px-5 py-2">
-          <RouterLink to="/sobrenos" />
+          <RouterLink to="/sobrenos" :class="colorText()">
+            Sobre nós
+          </RouterLink>
         </div>
         <div class="px-5 py-2">
           <a
