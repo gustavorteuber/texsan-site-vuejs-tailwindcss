@@ -36,7 +36,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex justify-center">
+  <div class="m-5 flex justify-center">
     <h1 :class="colorTitle()">
       Texsan<small :class="colorSubT()">Quem nós somos?</small>
     </h1>
