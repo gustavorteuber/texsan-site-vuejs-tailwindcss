@@ -72,7 +72,7 @@ export default {
         <i class="fa-regular fa-sun"></i>
       </button>
       <button
-        v-if="isDark == false"
+        v-if="isDark == true"
         type="button"
         class="block py-2 pl-3 pr-4 text-cyan-700 rounded md:hover:bg-transparent md:hover:text-cyan-700 md:p-0 :text-neutral-400 md::hover:text-cyan-500 :hover:bg-neutral-700 :hover:text-gray-500 md::hover:bg-transparent :border-cyan-700"
         @click="isDark = !isDark"
