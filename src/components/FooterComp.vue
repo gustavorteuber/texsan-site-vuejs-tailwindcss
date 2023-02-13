@@ -11,21 +11,21 @@ export default {
   },
   methods: {
     colorText() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "text-base leading-6 text-gray-500 hover:text-gray-400 transition delay-150 duration-300 ease-in-out";
       } else {
         return "text-base leading-6 text-cyan-900 hover:text-cyan-700 transition delay-150 duration-300 ease-in-out";
       }
     },
     colorFooter() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "bg-neutral-900 transition delay-150 duration-300 ease-in-out";
       } else {
         return "bg-white transition delay-150 duration-300 ease-in-out";
       }
     },
     colorIcon() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "text-gray-500 hover:text-gray-400 transition delay-150 duration-300 ease-in-out";
       } else {
         return "text-cyan-900 hover:text-cyan-700 transition delay-150 duration-300 ease-in-out";

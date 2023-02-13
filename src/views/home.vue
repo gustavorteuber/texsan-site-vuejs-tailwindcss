@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     colorBody() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "bg-neutral-900 transition delay-150 duration-300 ease-in-out";
       } else {
         return "bg-white transition delay-150 duration-300 ease-in-out";

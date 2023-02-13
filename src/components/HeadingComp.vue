@@ -11,14 +11,14 @@ export default {
   },
   methods: {
     colorText() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-text-4xl lg:text-7xl transition delay-150 duration-300 ease-in-out";
       } else {
         return "mb-4 text-4xl font-extrabold text-slate-800 md:text-text-4xl lg:text-7xl transition delay-150 duration-300 ease-in-out";
       }
     },
     colorButton() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "m-10 inline-flex items-center justify-center px-5 py-3 text-base font-extrabold text-center text-slate-800 bg-gradient-to-l from-emerald-700 via-cyan-800 to-indigo-900 rounded-lg transition delay-150 duration-300 ease-in-out";
       } else {
         return "m-10 inline-flex items-center justify-center px-5 py-3 text-base font-extrabold text-center text-white bg-gradient-to-l from-emerald-700 via-cyan-800 to-indigo-900 rounded-lg transition delay-150 duration-300 ease-in-out";
