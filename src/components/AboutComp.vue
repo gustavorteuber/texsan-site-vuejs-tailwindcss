@@ -11,21 +11,21 @@ export default {
   },
   methods: {
     colorTitle() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-emerald-700 via-cyan-800 to-cyan-900 md:text-text-4xl lg:text-7xl transition delay-150 duration-300 ease-in-out";
       } else {
         return "text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-emerald-700 via-cyan-800 to-cyan-900 md:text-text-4xl lg:text-7xl transition delay-150 duration-300 ease-in-out";
       }
     },
     colorSubT() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "ml-2 font-semibold text-white transition delay-150 duration-300 ease-in-out";
       } else {
         return "ml-2 font-semibold text-slate-800 transition delay-150 duration-300 ease-in-out";
       }
     },
     paragraph() {
-      if (this.isDark == true) {
+      if (this.isDark == false) {
         return "mb-3 font-light text-gray-500 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-cyan-700 first-letter:mr-3 first-letter:float-left transition delay-150 duration-300 ease-in-out";
       } else {
         return "mb-3 font-light text-gray-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-letter:mr-3 first-letter:float-left transition delay-150 duration-300 ease-in-out";
