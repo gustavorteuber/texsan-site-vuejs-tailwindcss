@@ -31,7 +31,7 @@ export default {
 <template>
   <body :class="colorBody()">
     <headercomp />
-    <div class="m-20"></div>
+    <!-- <div class="m-20"></div> -->
     <headingcomp />
     <footercomp />
   </body>
